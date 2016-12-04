@@ -34,11 +34,11 @@ At the top of test.js, import the:
 * Chai expect library  
 * file in which you'll be writing your javascript code
 
-**Write a test for the function "Greeting":**
+####Write tests for the function "greeting":
 
-**Input**: name (ex: 'Jennie')
+**Input**: name, string (ex: 'Jennie')
 
-**Output**: greeting (ex: 'Hello, Jennie')
+**Output**: greeting that incorporates string input (ex: 'Hello, Jennie')
 
 **Test for**:
 * accepts only one argument
@@ -46,9 +46,14 @@ At the top of test.js, import the:
 * output is a string
 * output is expected string
 
+####Write tests for the function "reduce":
 
+**Input**: array of integers (ex: [3, 8, 12, 2])
 
+**Output**: integer representing sum of all integers in array (ex: 25)
 
-###Stretch
-Convert your code to ES2015 syntax.
-push solution repo to this repo
+**Test for**:
+* input is an array
+* input array includes only numbers
+* output is a number
+* output is a sum of all elements
