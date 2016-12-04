@@ -21,11 +21,6 @@ $ touch test.js
 
 Run the command `mocha` to make sure mocha and chai are set up correctly. You should see `0 passing (2ms)` in your terminal.
 
-###test/test.js: Import Modules & Write Tests
-At the top of test.js, import the:
-* Chai expect library  
-* file in which you'll be writing your javascript code
-
 ###main.js: Set Up Export Module
 Prepare to add code to the module.exports object by adding the following to main.js:
 ```
@@ -33,6 +28,21 @@ module.exports = {
   //code goes here
 };
 ```
+
+###test/test.js: Import Modules & Write Tests
+At the top of test.js, import the:
+* Chai expect library  
+* file in which you'll be writing your javascript code
+
+**Write a test for the following:**
+
+**Input**: name (ex: 'Jennie')
+**Output**: greeting (ex: 'Hello, Jennie')
+**Test for**:
+* input is a string
+* output is a string
+* output is expected string
+
 
 
 
