@@ -57,3 +57,6 @@ At the top of test.js, import the:
 * input array includes only numbers
 * output is a number
 * output is a sum of all elements
+
+###Once You've Finished
+Once you've written code that passes your tests, get started on the [javascript-test-coverage]('https://github.com/gSchool/javascript-test-coverage') exercises. Be aware that these tests use the 'assert' rather 'expect' Chai library. Feel free to dig around the Chai docs to learn and use this other style, or simply delete all code in `index.js` and start from scratch using the `expect` library used for this exercise.
