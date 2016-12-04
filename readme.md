@@ -34,11 +34,14 @@ At the top of test.js, import the:
 * Chai expect library  
 * file in which you'll be writing your javascript code
 
-**Write a test for the following:**
+**Write a test for the function "Greeting":**
 
 **Input**: name (ex: 'Jennie')
+
 **Output**: greeting (ex: 'Hello, Jennie')
+
 **Test for**:
+* accepts only one argument
 * input is a string
 * output is a string
 * output is expected string
