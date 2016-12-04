@@ -1,10 +1,6 @@
 #Javascript Unit Testing
 
 ##Directory Setup
-If you haven't already, globally install Mocha:
-```
-$ npm install mocha -g
-```
 
 Next, build out a directory that is set up for testing:
 ```
@@ -12,14 +8,18 @@ $ mkdir js-unit-testing
 $ cd js-unit-testing
 $ git init
 $ npm init -y
-$ npm install --save-dev chai
+$ npm install --save-dev chai mocha
+
+set "scripts" --> "test" value in package.json to "./node_modules/.bin/mocha -w"
+
 $ touch main.js
 $ mkdir test
 $ cd test
 $ touch test.js
 ```
 
-Run the command `mocha` to make sure the Mocha and Chai npm modules are imported correctly. You should see `0 passing (2ms)` in your terminal.
+
+Run the command `$ npm test` to make sure the Mocha and Chai npm modules are imported correctly. You should see `0 passing (2ms)` in your terminal.
 
 ##main.js: Set Up Export Module
 Prepare to add code to the `module.exports` object by adding the following to main.js:
@@ -59,4 +59,6 @@ At the top of test.js, import the:
 * output is a sum of all elements
 
 ###Once You've Finished
-Once you've written code that passes your tests, get started on the [javascript-test-coverage](https://github.com/gSchool/javascript-test-coverage) exercises. Be aware that these tests use the 'assert' rather 'expect' Chai library. Feel free to dig around the Chai docs to learn and use this other style, or simply delete all code in `index.js` and start from scratch using the `expect` library used for the above exercise.
+Once you've written code that passes your tests, fork & clone the [javascript-test-coverage](https://github.com/gSchool/javascript-test-coverage) repo and begin working through those exercises.
+
+Be aware that test/test.js imports and uses the `assert` rather `expect` Chai library. Feel free to dig around the Chai docs to learn and use the `assert` style, or simply delete all code in `index.js` and start from scratch using the `expect` library used for the above exercise.
