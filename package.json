@@ -1,0 +1,26 @@
+{
+  "name": "js-unit-testing",
+  "version": "1.0.0",
+  "description": "##Directory Setup If you haven't already, globally install Mocha: ``` $ npm install mocha -g ```",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KFoster-Marks/js-unit-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KFoster-Marks/js-unit-testing/issues"
+  },
+  "homepage": "https://github.com/KFoster-Marks/js-unit-testing#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
