@@ -27,7 +27,12 @@ At the top of test.js, import the:
 * file in which you'll be writing your javascript code
 
 ###main.js: Set Up Export Module
-
+Prepare to add code to the module.exports object by adding the following to main.js:
+```
+module.exports = {
+  //code goes here
+};
+```
 
 
 
