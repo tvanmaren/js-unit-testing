@@ -1,6 +1,6 @@
 #Javascript Unit Testing
 
-###Directory Setup
+##Directory Setup
 If you haven't already, globally install Mocha:
 ```
 $ npm install mocha -g
@@ -21,7 +21,7 @@ $ touch test.js
 
 Run the command `mocha` to make sure mocha and chai are set up correctly. You should see `0 passing (2ms)` in your terminal.
 
-###main.js: Set Up Export Module
+##main.js: Set Up Export Module
 Prepare to add code to the module.exports object by adding the following to main.js:
 ```
 module.exports = {
@@ -29,12 +29,12 @@ module.exports = {
 };
 ```
 
-###test/test.js: Import Modules & Write Tests
+##test/test.js: Import Modules & Write Tests
 At the top of test.js, import the:
 * Chai expect library  
 * file in which you'll be writing your javascript code
 
-####Write tests for the function "greeting":
+###Write tests for the function "greeting":
 
 **Input**: name, string (ex: 'Jennie')
 
@@ -46,7 +46,7 @@ At the top of test.js, import the:
 * output is a string
 * output is expected string
 
-####Write tests for the function "reduce":
+###Write tests for the function "reduce":
 
 **Input**: array of integers (ex: [3, 8, 12, 2])
 
