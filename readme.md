@@ -32,7 +32,7 @@ module.exports = {
 ##test/test.js: Import Modules & Write Tests
 At the top of test.js, import the:
 * Chai `expect` library  
-* file in which you'll be writing your javascript code
+* `main.js`
 
 ###Write tests for the function "greeting":
 
