@@ -23,8 +23,8 @@ Run the command `mocha` to make sure mocha and chai are set up correctly. You sh
 
 ###test/test.js: Import Modules & Write Tests
 At the top of test.js, import the:
-  +Chai expect library  
-  +file in which you'll be writing your javascript code
+  *Chai expect library  
+  *file in which you'll be writing your javascript code
 
 ###main.js: Set Up Export Module
 
