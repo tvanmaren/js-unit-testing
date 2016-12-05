@@ -74,3 +74,29 @@ The Chai `expect` documentation will be crucial in understanding the syntax to u
 Once you've written code that passes your tests, fork & clone the [javascript-test-coverage](https://github.com/gSchool/javascript-test-coverage) repo and begin working through those exercises.
 
 Be aware that `test/test.js` imports and uses the `assert` rather `expect` Chai library. Feel free to dig around the Chai docs to learn and use the `assert` style, or simply delete all code in `index.js` and start from scratch using the `expect` library used for the above exercise.
+
+##Example Test/Function Pair for Reference
+
+From `test/test.js`:
+
+```
+'use strict';
+
+const code = require('../main.js');
+const expect = require('chai').expect;
+
+describe("Hello World", () => {
+  it("should return 'Hello, World!' when ran", () => {
+    expect(code.helloWorld()).to.equal('Hello, World!');
+  });
+});
+```
+From `main.js`:
+
+```
+module.exports = {
+  helloWorld: () => {
+    return 'Hello, World!';
+  }
+}
+```
