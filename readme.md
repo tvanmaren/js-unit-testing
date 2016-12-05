@@ -27,6 +27,8 @@ $ touch test.js
 
 Run the command `$ npm test` to make sure the Mocha and Chai npm modules are imported correctly. You should see `0 passing (2ms)` in your terminal.
 
+**Note**: Running the command `mocha` will also run your tests, with one minor difference. Can you see what the difference is?
+
 ##main.js: Set Up Export Module
 Prepare to add code to the `module.exports` object by adding the following to main.js:
 ```
