@@ -89,6 +89,10 @@ describe("Hello World", () => {
   it("should return 'Hello, World!' when ran", () => {
     expect(code.helloWorld()).to.equal('Hello, World!');
   });
+
+  it("should return a string", () => {
+    expect(code.helloWorld()).to.be.a('string');
+  })
 });
 ```
 From `main.js`:
