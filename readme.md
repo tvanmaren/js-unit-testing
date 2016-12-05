@@ -42,7 +42,7 @@ At the top of test.js, import the following:
 * the Chai `expect` library  
 * your `main.js` file
 
-Write tests for the following two functions. Expected inputs and outputs are defined, along with the specific conditions to be tested.
+Write tests for the functions `greeting` and `reduce`. Expected inputs and outputs are defined, along with the specific conditions to be tested.
 
 The Chai `expect` documentation will be crucial in understanding the syntax to use when writing these tests.
 
@@ -73,4 +73,4 @@ The Chai `expect` documentation will be crucial in understanding the syntax to u
 ###Once You've Finished
 Once you've written code that passes your tests, fork & clone the [javascript-test-coverage](https://github.com/gSchool/javascript-test-coverage) repo and begin working through those exercises.
 
-Be aware that test/test.js imports and uses the `assert` rather `expect` Chai library. Feel free to dig around the Chai docs to learn and use the `assert` style, or simply delete all code in `index.js` and start from scratch using the `expect` library used for the above exercise.
+Be aware that `test/test.js` imports and uses the `assert` rather `expect` Chai library. Feel free to dig around the Chai docs to learn and use the `assert` style, or simply delete all code in `index.js` and start from scratch using the `expect` library used for the above exercise.
