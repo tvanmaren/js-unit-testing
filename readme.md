@@ -30,7 +30,7 @@ Run the command `$ npm test` to make sure the Mocha and Chai npm modules are imp
 **Note**: Running the command `mocha` will also run your tests, with one minor difference. Can you see what the difference is?
 
 ##main.js: Set Up Export Module
-Prepare to add code to the `module.exports` object by adding the following to main.js:
+Prepare to add code to the `module.exports` object by adding the following to `main.js`:
 ```
 module.exports = {
   //code goes here
@@ -41,6 +41,10 @@ module.exports = {
 At the top of test.js, import the following:
 * the Chai `expect` library  
 * your `main.js` file
+
+Write tests for the following two functions. Expected inputs and outputs are defined, along with the specific conditions to be tested.
+
+The Chai `expect` documentation will be crucial in understanding the syntax to use when writing these tests.
 
 ###Write tests for the function "greeting":
 
