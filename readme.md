@@ -2,12 +2,13 @@
 
 ##Directory Setup
 
-Next, build out a directory that is set up for testing:
+Build out a directory that is set up for testing:
 ```
 $ mkdir js-unit-testing
 $ cd js-unit-testing
 $ git init
 $ npm init -y
+$ echo 'node_modules'>>.gitignore
 $ npm install --save-dev chai mocha
 
 set "scripts" --> "test" value in package.json to "./node_modules/.bin/mocha -w"
@@ -30,9 +31,9 @@ module.exports = {
 ```
 
 ##test/test.js: Import Modules & Write Tests
-At the top of test.js, import the:
-* Chai `expect` library  
-* `main.js`
+At the top of test.js, import the following:
+* the Chai `expect` library  
+* your `main.js` file
 
 ###Write tests for the function "greeting":
 
