@@ -10,9 +10,14 @@ $ git init
 $ npm init -y
 $ echo 'node_modules'>>.gitignore
 $ npm install --save-dev chai mocha
-
-set "scripts" --> "test" value in package.json to "./node_modules/.bin/mocha -w"
-
+```
+Your `package.json` should include the following modification:
+```
+"scripts": {
+  "test": "./node_modules/.bin/mocha -w"
+}
+```
+```
 $ touch main.js
 $ mkdir test
 $ cd test
