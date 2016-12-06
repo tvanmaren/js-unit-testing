@@ -1,0 +1,23 @@
+{
+  "name": "js-unit-testing",
+  "version": "1.0.0",
+  "description": "##Directory Setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvanmaren/js-unit-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tvanmaren/js-unit-testing/issues"
+  },
+  "homepage": "https://github.com/tvanmaren/js-unit-testing#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
