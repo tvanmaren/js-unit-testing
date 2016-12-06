@@ -87,7 +87,7 @@ const code = require('../main.js');
 const expect = require('chai').expect;
 
 describe("Hello World", () => {
-  it("should return 'Hello, World!' when ran", () => {
+  it("should return 'Hello, World!'", () => {
     expect(code.helloWorld()).to.equal('Hello, World!');
   });
 
